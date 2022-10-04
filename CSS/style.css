@@ -25,3 +25,29 @@
     width: 400px;
     height: 400px;
 }
+.containerBox{
+	display: flex;
+}
+
+.div1 {
+	width: 100px;
+	height: 100px;
+	margin-left: 50px;
+	margin-top: 100px;
+	background-color: red;
+	z-index: 1;
+	position: absolute;
+}
+
+.box1 {
+	z-index: 2;
+	background-color: black;
+}
+
+.box1:hover {
+	cursor: pointer;
+	margin-left: 200px;
+	
+}
+
+
