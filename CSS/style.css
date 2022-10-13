@@ -39,15 +39,3 @@
 	position: absolute;
 }
 
-.box1 {
-	z-index: 2;
-	background-color: black;
-}
-
-.box1:hover {
-	cursor: pointer;
-	margin-left: 200px;
-	
-}
-
-

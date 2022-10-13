@@ -1,0 +1,23 @@
+$color: lightblue;
+$fontsize: 20px;
+$color2: darkgray;
+
+.container {
+    background-color: $color;
+}
+
+h1 {
+    &:hover + p {
+        color: $color2;
+    }
+}
+
+.card__box {
+    margin: 30px 0px 30px 100px;
+}
+
+.container_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
